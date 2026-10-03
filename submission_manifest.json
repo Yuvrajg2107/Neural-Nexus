@@ -1,0 +1,10 @@
+{
+  "rules_confirmed": false,
+  "make_zip": false,
+  "files": [
+    {
+      "source": "work/agent.py",
+      "judge_name": "agent.py"
+    }
+  ]
+}

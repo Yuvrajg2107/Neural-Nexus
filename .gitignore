@@ -1,0 +1,24 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Organizer materials and generated handoff files need a rule check before sharing
+organizer/
+handoff/
+
+# Local data, trained models, and secrets
+data/
+*.csv
+*.parquet
+*.feather
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.onnx
+.env
+.env.*
+!.env.example
